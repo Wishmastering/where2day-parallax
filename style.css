@@ -1,0 +1,101 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+/* .pimg{
+    backfround-image:url('../img/')
+} */
+
+.main-header1 {
+  background-image: url(https://dev2.uplist.lk/wp-content/uploads/2022/08/world_travel_brave.jpg);
+  min-height: 1000px;
+}
+
+.main-header1,
+.main-header3,
+.main-header4 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+.main-header2 {
+  position: relative;
+  opacity: 0.7;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.main-header2 {
+  background-image: url(https://res.cloudinary.com/dlmcf8yed/image/upload/v1667508472/pruebas/qqvflxrwnzdvsqresdud.png);
+  /* background-image: url(src/front/img/pimg2.png); */
+  min-height: 500px;
+  min-width: 10%;
+  max-width: 500%;
+}
+
+.main-header3 {
+  background-image: url(https://images.pexels.com/photos/1963622/pexels-photo-1963622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  min-height: 400px;
+}
+
+.main-header4 {
+  background-image: url(https://images.pexels.com/photos/158028/bellingrath-gardens-alabama-landscape-scenic-158028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  min-height: 900px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+  font-size: 25px;
+  font-style: oblique;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  text-decoration: transparent;
+}
+
+.ptext .border .trans {
+  background-color: transparent;
+}
+
+.sizeEmphasis {
+  font-size: 40px;
+}
